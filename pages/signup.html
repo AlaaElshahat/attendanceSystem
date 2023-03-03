@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/login&signup.css">
+    <script src="./../scripts/registertion.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body class="bg-primary">
+    <div class="container py-5">
+        <div class="d-flex justify-content-center align-middle">
+          <div class="col-xl-8 col-lg-8 col-md-6 col-sm-8 col-8">
+            <div class="card  carddesign">
+              <div  class="flexable">
+                <div  class="col-0   col-md-0 col-lg-6">
+                    <img  class="d-none  d-md-block d-lg-block" src="../images/indx.jpg" >
+                </div> 
+                <div  class="col-12  col-md-12 col-lg-6 text-center" >
+                    <h4 class=" text-primary mb-0  p-4">Welcome To Clock It!</h4>
+                    <form id="formRegister" action="./../home.html">
+                        <input name="firstName" type="text" placeholder="First Name" id="firstName" required>
+                        <span  id="firstNameSpan"style="display: none; color: red;"> Your First Name  should be letter only</span>
+                        <input name="lastName" type="text" placeholder="Last Name" id="lastName" required>
+                        <span  id="lastNameSpan" style="display: none; color: red;"> Your Last Name  should be letter only</span>
+                        <input name="address" type="text" placeholder="Address" id="address" required>
+                         <input name="email" type="email" placeholder="Email " id="email" required>
+                         <span id="InvalidEmailSpan" style="display: none; color: red;">Invalid Email</span>
+                         <span id="duplicateEmailSpan" style="display: none;color: red;"> Duplicate Email</span>
+                         <input name="age" type="text" placeholder="Age" id="age" required>
+                         <span id="ageSpan" style="display: none;color: red;"> Your age  should be  22 or more </span>
+                         
+                          <input  type="submit" value="Register" id="registratinbtn"/>  
+                     </form>
+                </div> 
+              </div>
+          </div>
+        </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link href="../../css/adminaPage.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="../../scripts/admin-searchforspeceficEmp.js"></script>
+    
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="section">
+            <div class="top_navbar" style="margin-bottom: 0;">
+                <input type="text" id="myInput"  placeholder="Search for Speciefic  Employee BY Name..">
+                <button type="submit" id="submitsearch"><i class="fa fa-search"></i></button>
+            </div>
+            
+                <canvas id="myChart" style="width:100%;max-width:60% ;display:none" class="divbox"></canvas>
+                <div id="unavailableEmp" style="width:100%;max-width:60% ;display:none" class="divbox">
+                  <span>  This Name Is Not Exist  in  your Employees </span>
+                </div> 
+                
+            
+         </div>
+        <div class="sidebar">
+           <div class="profile">
+            <img src="../../images/logo1.png" alt="logo_picture">
+            <h3>Clock IT</h3>
+        </div>
+        <ul>
+            <li>
+                <a href="adminpending.html">
+                    <span class="icon"><i class="fas fa-user-friends"></i></span>
+                    <span class="item">Pending</span>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="adminemployee.html">
+                    <span class="icon"><i class="fas fa-user-friends"></i></span>
+                    <span class="item">Employee</span>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="dailyReports.html">
+                    <span class="icon"><i class="fas fa-chart-line"></i></span>
+                    <span class="item">Daily Reports</span>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="reportforspecficemp.html">
+                    <span class="icon"><i class="fas fa-chart-line"></i></span>
+                    <span class="item">Employee Report</span>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="adminmonthlyReport.html">
+                    <span class="icon"><i class="fas fa-chart-line"></i></span>
+                    <span class="item">Monthly Reports</span>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="../login.html">
+                    <span class="icon"><i class="fa fa-sign-out"></i></span>
+                    <span class="item">Log Out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+     </div>
+     
+</script>
+</body>
+</html>

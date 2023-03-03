@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIN</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/login&signup.css">
+    <script src="../scripts/login.js"></script>
+</head>
+<body class="bg-primary">
+    <div class="container py-5">
+        <div class="d-flex justify-content-center ">
+          <div class="col-xl-8 col-lg-8 col-md-6 col-sm-8 col-8">
+            <div class="card  carddesign align-middle" >
+              <div  class="flexable">
+                <div class="col-0   col-md-0 col-lg-6" >
+                    <img  class="d-none  d-md-block d-lg-block" src="../images/indx.jpg"  >
+                </div> 
+                <div  class="text-center col-12  col-md-12 col-lg-6">
+                    <h4 class=" p-4 text-primary">Welcome To Clock It!</h4>
+                    <form method="post"  id="loginForm"  >
+                         <input  id="userName"type="text" placeholder="User Name " name="userName">
+                         <span id="userNamespan" style="display: none;color: red;">Invalid User Name</span>
+                         <input  id="password"type="password" placeholder="Password" name="password"><br>
+                         <span id="passwordspan" style="display: none; color: red;" >Invalid password  </span>
+                          <input  type="submit" value="Login"/>
+                          <hr>
+                        <div >
+                            <p>Don't have an account ? <a  href="signup.html">Sign Up</a></p>
+                        </div>     
+                     </form>
+                </div> 
+              </div>
+          </div>
+        </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "emailjs-com": "^3.2.0",
+    "json-server": "^0.17.1"
+  }
+}

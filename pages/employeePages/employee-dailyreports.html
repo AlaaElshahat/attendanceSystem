@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../../css/employee.css" rel="stylesheet" />
+    <script src="../../scripts/employee.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="section">
+            <div class="top_navbar">
+                <button id="calenderbutton"  >
+                    <input type="text" id="datepicker"  >
+                    <i style="font-size:40px;color:blue" class="fa fa-calendar"></i>
+                </button>    
+            </div>
+             <div style="position: relative;">
+                <div  id="DailyReportDiv"class="divbox" style="display: none;">
+                    <label>Full Name:</label>  
+                    <label id="Name"></label><br>
+                    <label></label><br>
+                    <label>Date :</label>
+                    <label id="date"></label><br>
+                    <label></label><br>
+                    <label>Absence:</label>
+                    <label id="abscence"></label><br>
+                    <label></label><br>
+                    <label>Arrival Time :</label>
+                    <label id="arrivalTime"></label><br>
+                    <label></label><br>
+                    <label>Departure Time:</label>
+                    <label id="departure"></label><br>
+                    <label></label><br>
+                     <label>late :</label>
+                     <label id="late"></label><br>
+                     <label></label><br>
+                     <label id="excuseAt"style="display: none;">Excuse at:</label>
+                     <label id="excuse" ></label><br>
+               </div>
+             </div>
+        </div>
+        <div class="sidebar">
+            <div class="profile">
+                <img src="../../images/download.png"
+                    alt="profile_picture">
+                <h3 id="employeeName"></h3>
+                <p>Employee</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="employee-dailyreports.html">
+                        <span class="icon"><i class="fas fa-chart-line"></i></span>
+                        <span class="item">Daily Reports</span>
+                    </a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="employee-monthlyReport.html">
+                        <span class="icon"><i class="fas fa-chart-line"></i></span>
+                        <span class="item">Monthly Reports</span>
+                    </a>
+                    <hr>
+                </li>
+               
+                
+                <li>
+                    <a href="../login.html">
+                        <span class="icon"><i class="fa fa-sign-out"></i></span>
+                        <span class="item">Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

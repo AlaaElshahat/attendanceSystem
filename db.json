@@ -1,0 +1,222 @@
+{
+  "users": [
+    {
+      "firstName": "Elsayed",
+      "lastName": "Elshahat",
+      "address": "man",
+      "email": "elsayedelshahat75@gmail.com",
+      "age": "45",
+      "role": "admin",
+      "userName": "Elsayed@123",
+      "password": "x8j904cz",
+      "adminId": "Elsayed@123+x8j904cz"
+    },
+    {
+      "firstName": "Hassan ",
+      "lastName": "Elshahat",
+      "address": "man",
+      "email": "hassanelshahat65@gmail.com",
+      "age": "30",
+      "role": "security",
+      "userName": "Hassan@123",
+      "password": "x8jp04cz",
+      "securityId": "Hassan@123+x8jp04cz"
+    },
+    {
+      "firstName": "abdallah",
+      "lastName": "elsayed",
+      "address": "mans",
+      "email": "bodyelsayed6703@gmail.com",
+      "age": "23",
+      "role": "employee",
+      "userName": "WQY_223",
+      "password": "^yxl3aU",
+      "attendance": [
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 22,
+          "arrival": {
+            "hours": 10,
+            "minute": 8
+          },
+          "departure": {
+            "hours": 10,
+            "minute": 9
+          },
+          "absence": false
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 24,
+          "arrival": {
+            "hours": 10,
+            "minute": 9
+          },
+          "departure": {
+            "hours": 10,
+            "minute": 9
+          },
+          "absence": false
+        }
+      ],
+      "id": 1
+    },
+    {
+      "firstName": "aya",
+      "lastName": "elsayed",
+      "address": "mans",
+      "email": "ayaelsayed6703@gmail.com",
+      "age": "23",
+      "role": "employee",
+      "userName": "BMAX2CM",
+      "password": "fPUFXgW",
+      "attendance": [
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 15,
+          "arrival": {
+            "hours": 9,
+            "minute": 31
+          },
+          "departure": {
+            "hours": 17,
+            "minute": 0
+          },
+          "absence": false
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 16,
+          "arrival": {
+            "hours": 9,
+            "minute": 0
+          },
+          "departure": {
+            "hours": 12,
+            "minute": 0
+          },
+          "absence": false
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 17,
+          "arrival": {
+            "hours": 9,
+            "minute": 31
+          },
+          "departure": {
+            "hours": 12,
+            "minute": 0
+          },
+          "absence": false
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 19,
+          "arrival": {
+            "hours": 9,
+            "minute": 0
+          },
+          "departure": {
+            "hours": 17,
+            "minute": 0
+          },
+          "absence": false
+        }
+      ],
+      "id": 2
+    },
+    {
+      "firstName": "alaa",
+      "lastName": "elsayed",
+      "address": "mans",
+      "email": "alaaelsayed6703@gmail.com",
+      "age": "23",
+      "role": "employee",
+      "userName": "Q8VMRLQ",
+      "password": "@A5dyM*",
+      "attendance": [
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 22,
+          "arrival": {
+            "hours": 9,
+            "minute": 30
+          },
+          "departure": {
+            "hours": 15,
+            "minute": 31
+          },
+          "absence": false
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 24,
+          "arrival": {
+            "hours": 9,
+            "minute": 0
+          },
+          "departure": {
+            "hours": 17,
+            "minute": 0
+          },
+          "absence": false
+        }
+      ],
+      "id": 3
+    },
+    {
+      "firstName": "alaa",
+      "lastName": "elshahat",
+      "address": "mans",
+      "email": "alaaelshahat6703@gmail.com",
+      "age": "23",
+      "role": "employee",
+      "userName": "9HB2K97",
+      "password": "nOB#$Hh",
+      "attendance": [
+        {
+          "year": 2023,
+          "month": 1,
+          "day": 24,
+          "arrival": {
+            "hours": 14,
+            "minute": 6
+          },
+          "departure": {
+            "hours": 14,
+            "minute": 7
+          },
+          "absence": false
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "pendingEmployees": [
+    {
+      "firstName": "hazem",
+      "lastName": "elshahat",
+      "address": "mans",
+      "email": "alaaelshahat6703@gmail.com",
+      "age": "23",
+      "id": 5
+    },
+    {
+      "firstName": "alaa",
+      "lastName": "elsayed",
+      "address": "mans",
+      "email": "alaay678@gmail.com",
+      "age": "23",
+      "id": 6
+    }
+  ]
+}
